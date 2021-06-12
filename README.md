@@ -8,11 +8,7 @@ This **Jupyter notebook** will used **unsupervised learning** to scale down a Da
 
 ## Technologies
 
-**Python 3.7.9** was used to code this **Jupyter notebook** application, but was run in **Google Colab**. In order for this notebook to run properly, the following Python libararies need to be installed in the notebook: **Pandas**, **PyStan**, **FBProphet**, **HvPlot**, **Holoviews**, **Datetime**, and **MatPlotLib**.  In order for the HvPlot visualizations to display correctly in **Google Colab**, the following line of code should be run:
-
-'''python
-hv.extension('bokeh')
-'''
+**Python 3.7.9** was used to code this **Jupyter notebook** application, but was run in **Google Colab**. In order for this notebook to run properly, the following Python libararies need to be installed in the notebook: **Pandas**, **PyStan**, **FBProphet**, **HvPlot**, **Holoviews**, **Datetime**, and **MatPlotLib**.
 
 ---
 
@@ -24,9 +20,9 @@ To run this **Jupyter notebook** specifically in **Google Colab**, go to **colab
 
 Another important thing to note: in order for the **HvPlot visualizations** to display correctly in **Google Colab**, the following line of code should be run:
 
-'''python
+```python
 hv.extension('bokeh')
-'''
+```
 
 ![step2](https://user-images.githubusercontent.com/80929342/121786698-81408200-cb76-11eb-8f3f-525a02470773.JPG)
 
@@ -42,10 +38,10 @@ The notebook will start off by importing and installing all the required librari
 
 Since this notebook is run in **Google Colab**, we will use this line of code to upload the appropriate CSV files to create DataFrames:
 
-'''python
+```python
 from google.colab import files
 uploaded = files.upload()
-'''
+```
 
 ![step6](https://user-images.githubusercontent.com/80929342/121787637-0b3f1980-cb7c-11eb-9995-26214e3aece8.JPG)
 
